@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Mohammed Alkadi</title>
+	<style>
+		#mypic {
+			display: inline-block;
+			height: auto;
+			z-index: none;
+			filter: drop-shadow(-2px -2px 5px white);
+			transition: filter 0.6s, box-shadow 0.6s, border-radius 0.6s;
+		}
+
+		#myname {
+			display: inline-block;
+			height: auto;
+			z-index: none;
+			filter: drop-shadow(-2px -2px 5px white);
+			transition: filter 0.6s, box-shadow 0.6s, border-radius 0.6s;
+		}
+
+		#mypic:hover {
+			filter: unset;
+			border-radius: 30px;
+			box-shadow: 0px 0px 5px 2px white;
+		}
+
+		#myname:hover {
+			filter: unset;
+			border-radius: 30px;
+			box-shadow: 0px 0px 5px 2px white;
+		}
+
+		.center {
+			margin: 0 auto;
+			text-align: center;
+			justify-content: center;
+		}
+
+		p {
+			width: 750px;
+			padding: 12px;
+			margin: 15px;
+			border: 6px solid black;
+			background-color: whitesmoke;
+			color: black;
+			font-family: Avenir;
+		}
+
+		.dropdown {
+			display: inline-block;
+			position: relative;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: relative;
+			width: 100%;
+			overflow: auto;
+			box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+		.dropdown-content a {
+			display: block;
+			color: #000000;
+			padding: 5px;
+			text-decoration: none;
+		}
+
+		.dropdown-content a:hover {
+			color: #FFFFFF;
+			background-color: #00A4BD;
+		}
+
+		.space-top{
+			margin-top: 15px;
+		}
+
+		body {
+			background-image: url('personalimg5.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+		}
+	</style>
+</head>
+
+<body class="center" bgcolor="gray">
+	
+	<div class="space-top">
+	<img id="mypic" src="myimg.jpg" width="100" height="100" alt="my pic" />
+	<br></br>
+	<h1 id="myname"><b>Mohammed Alkadi</b></h1>
+</div>
+	<br></br>
+
+	<center>
+		<div>
+		<p>
+			Hello My name is Mohammed Alkadi, I am studying computer science at the British university in Dubai
+			<br></br>
+			I am studying Artifcial Intelegnce (AI)
+			<br></br>
+			This is my first public page using HTML and CSS
+		</p>
+	</div>
+	</center>
+
+	<div class="dropdown">
+		<button>Personal Pages</button>
+		<div class="dropdown-content">
+			<a href="Assi1Page2.html">MY CV</a>
+			<a href="Assi1SC.html">My School Certificate</a>
+			<a href="AllMyWork.html">My Humble Work In HTML</a>
+		</div>
+	</div>
+	<br></br>
+
+<div>
+	<h3>Contact me</h3>
+	<a href="https://www.instagram.com/mp7x2/"><img src="insta.jpg" width="25" height="25"
+			alt="insta page" />&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.snapchat.com/add/mp7x22?share_id=VBbBu0pISUG/7zC9n/uk+w&locale=en_AE"><img src="snap.png"
+				width="30" height="30" alt="snap page" />&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://wa.me/+971547633383"><img src="whatsapp.png" width="25" height="25"
+					alt="whatsapp page" />&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="mailto:intromoto22@gmail.com"><img src="email.png" width="25" height="25" alt="email page" />
+				</div>
+
+</body>
+
+</html>

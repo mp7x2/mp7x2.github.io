@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>FeedBack Form</h1>
+    <p>Please fill the form to help us improve our website</p>
+
+    <form method="post" action="">
+<p>
+    <input type ="hidden" name="recipient"
+    value ="intromoto22@gmail.com" />
+    <input type ="hidden" name="subject"
+    value ="FeedBack Form" />
+</p>
+
+<p><label><b>Name:</b> 
+    <input name="name" type="text" size="25" maxlength="30" />
+</label></p>
+<p><label><b>Age:</b>
+    <input age="age" type="number" size="1" maxlength="3" />
+</label></p>
+<p><label><b>Favourite Color:</b> 
+    <input color="color" type="color" />
+</label></p>
+<p><label><b>Birth Day:</b> 
+    <input birth="birth" type="date" />
+</label></p>
+<p><label><b>Email:</b> 
+    <input email="email" type="email" />
+</label></p>
+<p><label><b>Comment:</b> <br/>
+    <textarea comment="comment" type="text"
+    rows="4" cols="36" >Enter comment here.</textarea>
+</label></p>
+
+<p>
+    <b>Things you liked:</b><br/>
+<label>site design
+    <input name="things liked" type="checkbox" value="design" />
+</label>
+<label>Links
+    <input name="things liked" type="checkbox" value="Links" />
+</label>
+<label>Ease of use
+    <input name="things liked" type="checkbox" value="Ease" />
+</label>
+<label>Images
+    <input name="things liked" type="checkbox" value="Images" />
+</label>
+
+</p>
+
+
+<p><strong>How did you get to our site?:</strong><br />
+    <label>Search engine <input name = "howtosite" type = "radio" value = "search engine" checked = "checked" /></label> <label>Links from another site <input name = "howtosite" type = "radio" value = "link" /></label> <label>Deitel.com Website <input name = "howtosite" type = "radio" value = "deitel.com" /></label> <label>Reference in a book <input name = "howtosite" type = "radio" value = "book" /></label> <label>Other <input name = "howtosite" type = "radio" value = "other" /></label> </p>
+
+    <p><strong>Rate our website:</strong><br />
+        <label>Rate <input name = "Rate" type = "range"  /></label> 
+    
+<p>
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Clear" />
+</p>
+</form>
+
+<form method="get" action="instagram.com">
+<button type="submit">instagram</button>
+</form>
+</body>
+</html>
